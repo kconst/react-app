@@ -9,6 +9,8 @@ import home from './images/homeIcon.png';  //yo doy el nombre de importacion par
 class LandingPage extends Component {
   render() {
     return (
+    
+      
       <div className="landing">
         <div className="logo">
           <img src={logo} className="myLogo" />

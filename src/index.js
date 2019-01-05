@@ -5,7 +5,9 @@ import './index.css';
 import App from './App';
 import Cities from './cities';
 import * as serviceWorker from './serviceWorker';
-import Homeicon from './footer';
+import User from './header';
+import Login from './login';
+import Signup from './signup';
 
 
 
@@ -15,7 +17,8 @@ const routing = (
         <Switch>
         <Route exact path="/" component={App} />
         <Route path="/cities" component={Cities} />
-        <Route path="/" component={App} />  
+        <Route path="/signup" component={Signup} />
+        <Route path="/login" component={Login} /> 
         {/* aqui hacemos la ruta de home con el icono, no estoy seguro de si esta bine enrutado o no en "/landing" */}
         {/* <Route component={Notfound} /> */}
         </Switch>

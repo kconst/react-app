@@ -93,3 +93,23 @@ width: 100%
   align-items: center;
   text-align: center; 
 } 
+
+.iconUser{
+
+  height: 30px;
+  width:30px;
+}
+
+.menuCities{
+
+  height: 30px;
+  width:30px;
+}
+
+.headerMenu{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
